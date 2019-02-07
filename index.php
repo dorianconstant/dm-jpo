@@ -13,7 +13,7 @@ $twig = new Twig_Environment($loader, [
 ]);
 
 // on charge le template
-$template = $twig->loadTemplate('index.html');
+$template = $twig->loadTemplate('form.html');
 
 // on passe un tableau avec les variables (clé => valeur)
 // et on obtient la page HTML pure

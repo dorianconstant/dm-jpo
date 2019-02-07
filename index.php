@@ -9,7 +9,7 @@ $loader = new Twig_Loader_Filesystem('templates');
 // objet "environnement de Twig" à partir du chargeur et
 // des paramètres, dont le chemin du cache
 $twig = new Twig_Environment($loader, [
-    'cache' => 'cache',
+    'cache' => false,
 ]);
 
 // on charge le template
@@ -17,6 +17,6 @@ $template = $twig->loadTemplate('form.html');
 
 // on passe un tableau avec les variables (clé => valeur)
 // et on obtient la page HTML pure
-echo $template->render(array('mess' => 'Salut petit bonhomme !'));
+echo $template->render(array());
 
 ?>

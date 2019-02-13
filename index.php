@@ -21,3 +21,4 @@ $template = $twig->loadTemplate('insc.html');
 echo $template->render(array());
 
 ?>
+

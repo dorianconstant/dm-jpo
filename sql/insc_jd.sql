@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Mer 13 Février 2019 à 09:13
+-- Généré le :  Mer 13 Février 2019 à 09:17
 -- Version du serveur :  5.7.11
 -- Version de PHP :  7.0.3
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `tp_jpo`
+-- Base de données :  `insc_jd`
 --
 
 -- --------------------------------------------------------

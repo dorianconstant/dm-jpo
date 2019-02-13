@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('pseudo').addEventListener('blur', function(){
+    document.getElementById('pseudo').addEventListener('blur', function(e){
         let pseudo = document.insc.pseudo.value;
-        if (validPseudo(pseudo) == false){
-            document.getElementById('mess_pseudo').textContent = 'Erreur de pseudo, seulement lettres et chiffres';
+        if (validPseudo(pseudo) == true){
+            document.getElementById('submit').disabled = false;
+        } else {
+            document.getElementById('mess_pseudo').classList.remove('d-none');
+            e.stopPropagation();
         }
-    });
-
-    document.getElementById('pseudo').addEventListener('focus', function(){
-        document.getElementById('mess_pseudo').textContent = '';
     });
 });

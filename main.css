@@ -6,3 +6,7 @@ html {
     justify-content: center;
     align-content: center;
 }
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+}

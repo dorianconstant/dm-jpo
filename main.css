@@ -10,3 +10,7 @@ html {
 body {
     font-family: 'Raleway', sans-serif !important;
 }
+
+header {
+    margin-bottom: 10rem;
+}

@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', function(){
 
     document.getElementById('pseudo').addEventListener('focus', function(){
         document.getElementById('mess_pseudo').textContent = '';
-        });
     });
+});

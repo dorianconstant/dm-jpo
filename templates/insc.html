@@ -4,38 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inscription JPO</title>
+    <title>Inscription JD</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1 class="text-center text-uppercase">Incription JPO</h1>
+            <h1 class="text-center text-uppercase">Incription JD</h1>
             <h2 class="text-center">IUT de Blois</h2>
         </div>
     </header>
 
     <main>
         <div class="container">
-            <form>
+            <form name="insc">
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputPseudo">Pseudo</label>
-                        <input type="text" class="form-control" id="inputPseudo" placeholder="Votre pseudo">
+                        <label for="pseudo">Pseudo</label>
+                        <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Votre pseudo" autocomplete="off">
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="selectDate">Date</label>
-                        <select class="form-control" id="selectDate">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+                        <label for="date">Date</label>
+                        <input type="text" id="datepicker" class="form-control" name="date_user" id="date" placeholder="Quel jour souhaitez-vous venir&nbsp;?" autocomplete="off">
                     </div>
                 </div>
             </form>
@@ -45,6 +39,7 @@
     <footer></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/verif_form.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 <?php
+
 // chargement des modules installés
 require_once 'vendor/autoload.php';
 
@@ -13,7 +14,7 @@ $twig = new Twig_Environment($loader, [
 ]);
 
 // on charge le template
-$template = $twig->loadTemplate('form.html');
+$template = $twig->loadTemplate('insc.html');
 
 // on passe un tableau avec les variables (clé => valeur)
 // et on obtient la page HTML pure

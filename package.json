@@ -1,0 +1,23 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorianconstant/insc-jd.git"
+  },
+  "author": "dorian constant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorianconstant/insc-jd/issues"
+  },
+  "homepage": "https://github.com/dorianconstant/insc-jd#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery-ui-dist": "^1.12.1"
+  }
+}
